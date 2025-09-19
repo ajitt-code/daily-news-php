@@ -1,29 +1,29 @@
 
-Daily News PHP Project
+# Daily News PHP Project
 
-Daily News is a simple and responsive news management system built with PHP, MySQL, and Bootstrap. This project allows users to create, view, update, and delete news articles with ease, while maintaining a clean and modern interface.
+**Daily News** is a simple and responsive news management system built with **PHP, MySQL, and Bootstrap**. This project allows users to create, view, update, and delete news articles with ease, while maintaining a clean and modern interface.  
 
-⸻
+---
 
-Features
-	•	Add news with title, description, category, region, city, country, language, status, and banner image.
-	•	Record the name of the person who creates or updates news.
-	•	View news in clean Bootstrap cards with banner images and details.
-	•	Update existing news, including images.
-	•	Delete news with confirmation prompt.
-	•	Responsive design for desktop and mobile.
+## Features
+- Add news with title, description, category, region, city, country, language, status, and banner image.  
+- Record the name of the person who creates or updates news.  
+- View news in clean Bootstrap cards with banner images and details.  
+- Update existing news, including images.  
+- Delete news with confirmation prompt.  
+- Responsive design for desktop and mobile.
 
-⸻
+---
 
-Tech Stack
-	•	Backend: PHP
-	•	Database: MySQL (images stored as BLOBs)
-	•	Frontend: Bootstrap 5
+## Tech Stack
+- **Backend**: PHP  
+- **Database**: MySQL (images stored as BLOBs)  
+- **Frontend**: Bootstrap 5  
 
-⸻
+---
 
-Folder Structure
-
+## Folder Structure
+```
 /daily-news-php
 │
 ├── config.php         # Database connection
@@ -36,21 +36,20 @@ Folder Structure
 ├── update.php         # Update news
 ├── delete.php         # Delete news
 └── assets/            # Optional folder for CSS, JS, images
+```
+---
 
-
-⸻
-
-Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
-1. Prerequisites
-	•	Install XAMPP/WAMP/LAMP for PHP and MySQL support.
-	•	Make sure PHP 7.4+ is installed.
-	•	MySQL database server is running.
+### 1. Prerequisites
+- Install **XAMPP/WAMP/LAMP** for PHP and MySQL support.  
+- Make sure **PHP 7.4+** is installed.  
+- MySQL database server is running.
 
-2. Clone the Repository
-
+### 2. Clone the Repository
+```bash
 git clone https://github.com/yourusername/daily-news-php.git
 cd daily-news-php
 
@@ -115,3 +114,4 @@ Usage
 Author
 
 Built by Ajit Sanap – for learning, demonstration, and practice with PHP and MySQL.
+```
