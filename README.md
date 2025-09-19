@@ -50,7 +50,7 @@ Follow these steps to run the project locally:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/daily-news-php.git
+git clone https://github.com/ajitt-code/daily-news-php.git
 cd daily-news-php
 
 3. Create Database
